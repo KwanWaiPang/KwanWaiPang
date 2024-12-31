@@ -13,7 +13,8 @@
   <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/years/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
-  <a href="https://github.com/KwanWaiPang?tab=repositories">
+<!--   <a href="https://github.com/KwanWaiPang?tab=repositories"> -->
+   <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
   <a href="https://github.com/KwanWaiPang">
