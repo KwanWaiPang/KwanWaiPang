@@ -7,7 +7,7 @@
 
 <p align="center">
   <br><br>
-<!--   总的visits数 -->
+<!--   仓库KwanWaiPang的visits数 -->
     <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?&color=green&logo=github">
   <!--   加入的年数 -->
     <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
