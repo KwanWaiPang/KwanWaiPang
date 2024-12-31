@@ -8,18 +8,18 @@
 <p align="center">
   <br><br>
   <a href="https://github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=black&logo=github">
+    <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
   <a href="https://github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/years/KwanWaiPang?style=flat-square&color=black&logo=github">
+    <img src="https://badges.strrl.dev/years/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
   <a href="https://github.com/KwanWaiPang?tab=repositories">
-    <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=black&logo=github">
+    <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
   <a href="https://gist.github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/gists/KwanWaiPang?style=flat-square&color=black&logo=github">
+    <img src="https://badges.strrl.dev/gists/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
   <a href="https://github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/commits/monthly/KwanWaiPang?style=flat-square&color=black&logo=github">
+    <img src="https://badges.strrl.dev/commits/monthly/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
 </p>
