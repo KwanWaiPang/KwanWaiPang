@@ -8,7 +8,7 @@
 <p align="center">
   <br><br>
 <!--   总的visits数 -->
-    <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=green&logo=github">
+    <img src="https://badges.strrl.dev/visits/KwanWaiPang?&color=green&logo=github">
   <!--   加入的年数 -->
     <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?color=green&logo=github">
