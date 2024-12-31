@@ -10,8 +10,8 @@
 <!--   总的visits数 -->
     <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=green&logo=github">
   <!--   加入的年数 -->
-    <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green">
-    <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=green&logo=github">
-    <img src="https://badges.strrl.dev/commits/daily/KwanWaiPang?style=flat-square&color=green&logo=github">
-    <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?style=flat-square&color=green&logo=github">
+    <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
+    <img src="https://badges.strrl.dev/repos/KwanWaiPang?color=green&logo=github">
+    <img src="https://badges.strrl.dev/contributions/daily/KwanWaiPang?color=green&logo=github">
+    <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?color=green&logo=github">
 </p>
