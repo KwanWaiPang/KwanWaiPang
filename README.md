@@ -12,6 +12,6 @@
   <!--   加入的年数 -->
     <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?color=green&logo=github">
-    <img src="https://badges.strrl.dev/commits/all/KwanWaiPang?color=green&logo=github">
+    <img src="https://badges.strrl.dev/commits/daily/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?color=green&logo=github">
 </p>
