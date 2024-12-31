@@ -13,5 +13,6 @@
     <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/commits/daily/KwanWaiPang?color=green&logo=github">
+     <img src="https://badges.strrl.dev/contributions/daily/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?color=green&logo=github">
 </p>
