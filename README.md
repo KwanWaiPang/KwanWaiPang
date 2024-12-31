@@ -20,6 +20,6 @@
     <img src="https://badges.strrl.dev/gists/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a> -->
   <a href="https://github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/commits/all/KwanWaiPang?style=flat-square&color=green&logo=github">
+    <img src="https://badges.strrl.dev/commits/yearly/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
 </p>
