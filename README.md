@@ -16,10 +16,10 @@
   <a href="https://github.com/KwanWaiPang?tab=repositories">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
-  <a href="https://issues-and-prs.github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
   <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/commits/daily/KwanWaiPang?style=flat-square&color=green&logo=github">
+  </a>
+  <a href="https://github.com/KwanWaiPang">
+    <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?style=flat-square&color=green&logo=github">
   </a>
 </p>
