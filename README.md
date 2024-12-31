@@ -6,7 +6,6 @@
 </div>
 
 <p align="center">
-  <strong>Check out my work below!</strong>
   <br><br>
   <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=black&logo=github">
