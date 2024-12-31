@@ -7,20 +7,11 @@
 
 <p align="center">
   <br><br>
-  <a href="https://github.com/KwanWaiPang">
+<!--   总的visits数 -->
     <img src="https://badges.strrl.dev/visits/KwanWaiPang/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
-  <a href="https://github.com/KwanWaiPang">
-    <img src="https://badges.strrl.dev/years/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
-<!--   <a href="https://github.com/KwanWaiPang?tab=repositories"> -->
-   <a href="https://github.com/KwanWaiPang">
+  <!--   加入的年数 -->
+    <img src="https://badges.strrl.dev/years/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/repos/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
-  <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/commits/daily/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
-  <a href="https://github.com/KwanWaiPang">
     <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?style=flat-square&color=green&logo=github">
-  </a>
 </p>
