@@ -16,6 +16,3 @@
      <img src="https://badges.strrl.dev/contributions/daily/KwanWaiPang?color=green&logo=github">
     <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?color=green&logo=github">
 </p>
-
-
-![Metrics](https://metrics.lecoq.io/KwanWaiPang)
