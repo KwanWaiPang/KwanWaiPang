@@ -1,4 +1,4 @@
-name: generate snake Game
+name: generate github-contribution-grid-snake
 
 on:
   # run automatically every 2 hours
