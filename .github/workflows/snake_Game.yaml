@@ -3,7 +3,7 @@ name: generate github-contribution-grid-snake
 on:
   # run automatically every 2 hours
   schedule:
-    - cron: "0 */1 * * *" 
+    - cron: "0 */24 * * *" 
   
   workflow_dispatch: # 允许手动触发
 
