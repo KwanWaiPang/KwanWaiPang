@@ -24,8 +24,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<img alt="Globe Widget" src="https://raw.githubusercontent.com/你的仓库名/主分支/globe.png" width="300px" /> 
-
-<img src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/globe-widget.svg" alt="Globe Widget" width="300px" />
-
