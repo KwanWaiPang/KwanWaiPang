@@ -24,3 +24,16 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
 </picture>
+
+
+# Welcome to My GitHub Profile!
+
+![GitHub Globe](https://github.com/marketplace/actions/github-globe)
+
+Check out my contributions on the interactive GitHub Globe!
+
+<a href="https://github.com/marketplace/actions/github-globe">
+  <img src="https://raw.githubusercontent.com/marketplace/actions/github-globe/assets/demo.gif" alt="GitHub Globe" width="600"/>
+</a>
+
+You can click the image to view my contributions in an interactive 3D globe format.
