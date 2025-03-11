@@ -1,3 +1,5 @@
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs"></script>
+
 # Hi~ 👋
 
 <div align="center">
@@ -17,10 +19,19 @@
     <img src="https://badges.strrl.dev/issues-and-prs/all/KwanWaiPang?color=green&logo=github">
 </p>
 
-<!-- 放置贪吃蛇游戏 -->
-<picture>
-<!-- 根据主题颜色来决定用亮的还是黑的 -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
-</picture>
+<!-- 新增的并排布局容器 -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 0 auto; max-width: 90%;">
+  <!-- 贪吃蛇游戏 -->
+  <div style="flex: 1.2;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
+      <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" style="width: 100%;"/>
+    </picture>
+  </div>
+  
+  <!-- Globe Widget -->
+  <div style="flex: 1; min-height: 300px; display: grid; place-items: center;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs"></script>
+  </div>
+</div>
