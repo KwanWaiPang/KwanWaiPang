@@ -4,7 +4,7 @@ on:
   schedule: # 03:00 JST == 18:00 UTC
     - cron: "0 18 * * *" # 每天UTC时间18:00触发
   workflow_dispatch: # 允许手动触发
-  
+
   # run on every push on the master branch
   push:
     branches:
@@ -22,9 +22,9 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@0.8.0
         with:
           github_user_name: ${{ github.repository_owner }}  # 自动获取用户名
-          outputs: | #生成的svg文件的路径
-            dist/profile-night-view.svg
-            dist/profile-green-animate.svg
+          # outputs: | #生成的svg文件的路径
+          #   dist/profile-night-view.svg
+          #   dist/profile-green-animate.svg
   
   
       # push the content of <build_dir> to a branch
@@ -33,6 +33,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
           target_branch: output #生成的svg文件的分支
-          build_dir: dist #生成的svg文件的路径
+          # build_dir: dist #生成的svg文件的路径
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
