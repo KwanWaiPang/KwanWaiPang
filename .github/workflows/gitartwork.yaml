@@ -22,10 +22,14 @@ jobs:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate gitartwork.svg
         uses: jasineri/gitartwork@v1
+        uses: jasineri/simple-push-action@v1
         uses: actions/checkout@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
         with:
           user_name: ${{ github.repository_owner }}  # 自动获取用户名
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
+          # Text on contribution graph 
+          text: Hello World
           outputs: | #生成的svg文件的路径
             dist/gitartwork.svg
   
@@ -33,7 +37,7 @@ jobs:
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the gitartwork  branch
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: jasineri/simple-push-action@v1
         with:
           target_branch: gitartwork  #生成的svg文件的分支
           build_dir: dist #生成的svg文件的路径
