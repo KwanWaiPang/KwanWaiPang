@@ -13,15 +13,29 @@ on:
     - main #每次有push这个分支的时候都触发
   
 jobs:
-   build:
-     name: Make gitartwork SVG
-     runs-on: ubuntu-latest
-     steps:
-       - uses: actions/checkout@v3
-       - uses: jasineri/gitartwork@v1
-         with:
-            # Use this username's contribution graph  
-            user_name: ${{ github.repository_owner }}  # 自动获取用户名
-            # Text on contribution graph 
-            text: Hello World
-       - uses: jasineri/simple-push-action@v1
+  generate:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write # 允许写入仓库
+  
+    steps:
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate gitartwork.svg
+        uses: jasineri/gitartwork@v1
+        uses: actions/checkout@v3
+        with:
+          user_name: ${{ github.repository_owner }}  # 自动获取用户名
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
+          outputs: | #生成的svg文件的路径
+            dist/gitartwork.svg
+  
+  
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the gitartwork  branch
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          target_branch: gitartwork  #生成的svg文件的分支
+          build_dir: dist #生成的svg文件的路径
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
