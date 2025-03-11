@@ -1,0 +1,38 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *" # 每天UTC时间18:00触发
+  workflow_dispatch: # 允许手动触发
+  
+  # run on every push on the master branch
+  push:
+    branches:
+    - main #每次有push这个分支的时候都触发
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write # 允许写入仓库
+  
+    steps:
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate-github-profile-3d-contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.8.0
+        with:
+          github_user_name: ${{ github.repository_owner }}  # 自动获取用户名
+          outputs: | #生成的svg文件的路径
+            dist/profile-night-view.svg
+            dist/profile-green-animate.svg
+  
+  
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          target_branch: output #生成的svg文件的分支
+          build_dir: dist #生成的svg文件的路径
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
