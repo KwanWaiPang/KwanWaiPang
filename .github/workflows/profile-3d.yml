@@ -10,26 +10,20 @@ on:
     - main #每次有push这个分支的时候都触发
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    permissions: 
-      contents: write # 允许写入仓库
-  
+    name: generate-github-profile-3d-contrib
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate-github-profile-3d-contrib
-        uses: yoshi389111/github-profile-3d-contrib@0.8.0
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.8.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}  # 自动获取用户名        
-  
-  
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-profile-3d-contrib.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v2.5.0
-        with:
-          target_branch: 3d_contrib #生成的svg文件的分支
-          build_dir: dist #生成的svg文件的路径
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated"; then
+            git push output HEAD:output
+          fi
