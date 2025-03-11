@@ -14,15 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.8.0
+      - uses: actions/checkout@v3
+      - uses: gumbobrot/github-profile-3d-contrib@0.7.2
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
           USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: git pull --force origin output #强制拉取output分支
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git diff --staged --quiet || git commit -m "generated"
-          git push main HEAD:output --set-upstream
+          git commit -m "generated"
+          git push origin HEAD:output
