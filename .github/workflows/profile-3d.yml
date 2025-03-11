@@ -21,13 +21,7 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@0.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}  # 自动获取用户名
-        
-        # 将生成文件整理到dist目录
-      - name: Prepare dist directory
-        uses: actions/checkout@v4
-        run: |
-          mkdir -p profile-3d-contrib
+          USERNAME: ${{ github.repository_owner }}  # 自动获取用户名        
   
   
       # push the content of <build_dir> to a branch
@@ -35,7 +29,7 @@ jobs:
       - name: push github-profile-3d-contrib.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          target_branch: output #生成的svg文件的分支
-          build_dir: dist/profile-3d-contrib #生成的svg文件的路径
+          target_branch: 3d_contrib #生成的svg文件的分支
+          build_dir: dist #生成的svg文件的路径
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} #自己创建的 Personal Access Token (PAT)并添加到GitHub Secrets
