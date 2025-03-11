@@ -20,6 +20,9 @@ jobs:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate-github-profile-3d-contrib
         uses: yoshi389111/github-profile-3d-contrib@0.8.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}  # 自动获取用户名
         with:
           github_user_name: ${{ github.repository_owner }}  # 自动获取用户名
           outputs: | #生成的svg文件的路径
