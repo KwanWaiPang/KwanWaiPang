@@ -26,7 +26,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}  # 自动获取用户名
           outputs: | #生成的svg文件的路径
-            dist/*.svg
+            dist/profile-3d-contrib/profile-green-animate.svg
+            dist/profile-3d-contrib/profile-night-view.svg
   
   
       # push the content of <build_dir> to a branch
