@@ -26,6 +26,7 @@
 </picture>
 
 
-<div align="center">
+<picture>
   <img src="//www.clustrmaps.com/map_v2.png?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs&cl=ffffff" />
-</div>
+</picture>
+
