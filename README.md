@@ -26,4 +26,6 @@
 </picture>
 
 
-<a href="https://clustrmaps.com/site/1bupy"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs&cl=ffffff" /></a>
+<div align="center">
+  <img src="//www.clustrmaps.com/map_v2.png?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs&cl=ffffff" />
+</div>
