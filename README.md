@@ -25,8 +25,3 @@
   <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-
-<picture>
-  <img src="//www.clustrmaps.com/map_v2.png?d=pagJUnWnL_Z1rl0JVfBnYnM2UHbrfs-1Y3zuFwZJfCs&cl=ffffff" />
-</picture>
-
