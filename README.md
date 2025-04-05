@@ -25,5 +25,5 @@
   <img alt="github contribution grid snake" src="https://github.com/KwanWaiPang/KwanWaiPang/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM)](https://github.com/arclab-hku/Event_based_VO-VIO-SLAM)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent)](https://github.com/arclab-hku/Event_based_VO-VIO-SLAM)
 
