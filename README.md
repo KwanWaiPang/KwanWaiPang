@@ -32,28 +32,12 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent" />
-  </a>
-  <a href="https://github.com/arclab-hku/DEIO">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent" />
-  </a>
-  <br>
-
-  <a href="https://github.com/arclab-hku/ecmd">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ecmd&theme=transparent" />
-  </a>
-  <a href="https://github.com/arclab-hku/SuperEIO">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=SuperEIO&theme=transparent" />
-  </a>
- <br>
-
-   <a href="https://github.com/arclab-hku/ESVIO">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ESVIO&theme=transparent" />
-  </a>
-  <a href="https://github.com/arclab-hku/comment_3DGS">
-    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=comment_3DGS&theme=transparent" />
-  </a>
- <br>   
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent)](https://github.com/arclab-hku/Event_based_VO-VIO-SLAM)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent)](https://github.com/arclab-hku/DEIO)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ecmd&theme=transparent)](https://github.com/arclab-hku/ecmd)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ESVIO&theme=transparent)](https://github.com/arclab-hku/ESVIO)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=SuperEIO&theme=transparent)](https://github.com/arclab-hku/SuperEIO)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ESVIO&theme=transparent)](https://github.com/arclab-hku/ESVIO)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=comment_3DGS&theme=transparent)](https://github.com/arclab-hku/comment_3DGS)
 </div>
 
