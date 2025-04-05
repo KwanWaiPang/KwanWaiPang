@@ -27,13 +27,14 @@
 
 <!-- 列出一些主要项目 -->
 <div align="center">
-  <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM" style="display: inline-block; width: 49%;">
+  <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM" style="display: inline-block; width: 50%;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent" />
   </a>
-  <a href="https://github.com/arclab-hku/DEIO" style="display: inline-block; width: 49%;">
+  <a href="https://github.com/arclab-hku/DEIO" style="display: inline-block; width: 50%;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent" />
   </a>
 </div>
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent)](https://github.com/arclab-hku/Event_based_VO-VIO-SLAM)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent)](https://github.com/arclab-hku/DEIO)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ecmd&theme=transparent)](https://github.com/arclab-hku/ecmd)
