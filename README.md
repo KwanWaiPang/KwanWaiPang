@@ -27,6 +27,11 @@
 
 <!-- 列出一些主要项目 -->
 <div align="center">
+    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent" />
+    <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent" />
+</div>
+
+<div align="center">
   <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent" />
   </a>
