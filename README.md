@@ -27,30 +27,28 @@
 
 <!-- 列出一些主要项目 -->
 <div align="center">
-  <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM" style="display: inline-block; ">
+  <a href="https://github.com/arclab-hku/Event_based_VO-VIO-SLAM">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=Event_based_VO-VIO-SLAM&theme=transparent" />
   </a>
-  <a href="https://github.com/arclab-hku/DEIO" style="display: inline-block;">
+  <a href="https://github.com/arclab-hku/DEIO">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=DEIO&theme=transparent" />
   </a>
   <br>
 
-  <a href="https://github.com/arclab-hku/ecmd" style="display: inline-block;">
+  <a href="https://github.com/arclab-hku/ecmd">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ecmd&theme=transparent" />
   </a>
-  <a href="https://github.com/arclab-hku/SuperEIO" style="display: inline-block; ">
+  <a href="https://github.com/arclab-hku/SuperEIO">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=SuperEIO&theme=transparent" />
   </a>
  <br>
 
-   <a href="https://github.com/arclab-hku/ESVIO" style="display: inline-block;">
+   <a href="https://github.com/arclab-hku/ESVIO">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=ESVIO&theme=transparent" />
   </a>
-  <a href="https://github.com/arclab-hku/comment_3DGS" style="display: inline-block;">
+  <a href="https://github.com/arclab-hku/comment_3DGS">
     <img width: 49% src="https://github-readme-stats.vercel.app/api/pin/?username=arclab-hku&repo=comment_3DGS&theme=transparent" />
   </a>
-   <br>
-
-   
+ <br>   
 </div>
 
